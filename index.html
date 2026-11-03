@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://sanvoluntaria2.z15.web.core.windows.net/ -->
+<html lang="es-CO"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DonaVida Colombia | Información sobre la donación voluntaria de sangre</title>
+<meta name="description" content="Iniciativa informativa independiente sobre la donación voluntaria de sangre en Colombia: importancia, requisitos generales, proceso y fuentes oficiales para consultar bancos de sangre autorizados.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#8b0f1f">
+<meta property="og:title" content="DonaVida Colombia: donar sangre puede ayudar a salvar vidas">
+<meta property="og:description" content="Información educativa sobre la donación voluntaria de sangre y enlaces a fuentes oficiales en Colombia.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CO">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%238b0f1f' d='M32 4C22 18 12 28 12 40a20 20 0 0 0 40 0C52 28 42 18 32 4z'/%3E%3C/svg%3E">
+<style>
+/* ===== Variables y base ===== */
+:root{--red:#8b0f1f;--red-d:#650a16;--red-l:#b3263a;--pink:#fde8ec;--pink-2:#fff5f7;--ink:#2a1a1d;--muted:#5b4a4e;--white:#fff;--r:16px;--sh:0 8px 24px rgba(139,15,31,.12)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--white);line-height:1.65;font-size:1.05rem}
+h1,h2,h3{line-height:1.2;margin:0 0 .6em;color:var(--red-d)}
+h1{font-size:clamp(2rem,5vw,3.2rem)}h2{font-size:clamp(1.6rem,3.5vw,2.2rem)}h3{font-size:1.15rem}
+p{margin:0 0 1em}a{color:var(--red)}
+:focus-visible{outline:3px solid #1b4fd8;outline-offset:3px;border-radius:4px}
+.wrap{width:min(1100px,92%);margin-inline:auto}
+section{padding:72px 0}
+.alt{background:var(--pink-2)}
+.lead{color:var(--muted);max-width:68ch}
+.skip{position:absolute;left:-999px;top:8px;background:var(--red);color:#fff;padding:8px 14px;border-radius:8px;z-index:100}
+.skip:focus{left:8px}
+/* ===== Encabezado ===== */
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid #f2cdd4}
+.bar{display:flex;align-items:center;justify-content:space-between;min-height:64px}
+.logo{display:flex;align-items:center;gap:8px;font-weight:800;font-size:1.25rem;color:var(--red-d);text-decoration:none;letter-spacing:-.3px}
+.logo svg{width:26px;height:26px}.logo span{color:var(--red-l);font-weight:600}
+nav ul{display:flex;gap:6px;list-style:none;margin:0;padding:0}
+nav a{display:block;padding:8px 12px;border-radius:999px;text-decoration:none;color:var(--ink);font-weight:600;font-size:.95rem}
+nav a:hover{background:var(--pink);color:var(--red-d)}
+.burger{display:none;background:none;border:2px solid var(--red);color:var(--red);border-radius:10px;padding:8px 12px;font-weight:700;font-size:1rem;cursor:pointer}
+/* ===== Botones ===== */
+.btn{display:inline-block;padding:14px 26px;border-radius:999px;font-weight:700;text-decoration:none;border:2px solid var(--red);transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-p{background:var(--red);color:#fff}.btn-p:hover{background:var(--red-d)}
+.btn-s{background:#fff;color:var(--red)}.btn-s:hover{background:var(--pink)}
+.cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:1.5em}
+/* ===== Hero ===== */
+.hero{background:linear-gradient(135deg,var(--pink) 0%,#fff 70%);padding:64px 0 80px}
+.hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.hero p{font-size:1.2rem;color:var(--muted)}
+.art{width:100%;max-width:380px;margin-inline:auto;animation:float 6s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-10px)}}
+/* ===== Tarjetas ===== */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:28px}
+.card{background:#fff;border:1px solid #f2cdd4;border-radius:var(--r);padding:24px;box-shadow:var(--sh)}
+.card .ic{width:46px;height:46px;border-radius:12px;background:var(--pink);display:grid;place-items:center;margin-bottom:12px}
+.card .ic svg{width:26px;height:26px;fill:none;stroke:var(--red);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.note{background:var(--pink);border-left:5px solid var(--red);padding:16px 20px;border-radius:10px;margin-top:24px;font-size:.98rem}
+/* ===== Proceso ===== */
+.steps{counter-reset:s;list-style:none;padding:0;margin:28px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.steps li{counter-increment:s;background:#fff;border:1px solid #f2cdd4;border-radius:var(--r);padding:24px;position:relative}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--red);color:#fff;font-weight:800;margin-bottom:10px}
+/* ===== Acordeones (mitos y FAQ) ===== */
+details{background:#fff;border:1px solid #f2cdd4;border-radius:12px;margin-bottom:12px}
+summary{cursor:pointer;padding:16px 20px;font-weight:700;color:var(--red-d);list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.4rem;line-height:1;color:var(--red)}
+details[open] summary::after{content:"−"}
+details>div{padding:0 20px 16px;color:var(--muted)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+/* ===== Enlaces oficiales ===== */
+.links{list-style:none;padding:0;margin:20px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.links a{display:block;padding:18px 20px;border:1px solid #f2cdd4;border-radius:var(--r);background:#fff;text-decoration:none;font-weight:700;box-shadow:var(--sh)}
+.links a small{display:block;font-weight:400;color:var(--muted)}
+.links a:hover{background:var(--pink)}
+/* ===== Contacto ===== */
+.todo{background:#fff8e1;border:1px dashed #b58900;padding:2px 8px;border-radius:6px;font-weight:600}
+dl{margin:0}dt{font-weight:700;margin-top:.8em}dd{margin:0}
+/* ===== Pie ===== */
+footer{background:var(--red-d);color:#fde8ec;padding:48px 0 28px;font-size:.95rem}
+footer h2{color:#fff;font-size:1.1rem}footer a{color:#fff}
+footer .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:28px}
+footer ul{padding-left:1.1em;margin:0}
+.copy{border-top:1px solid rgba(255,255,255,.25);margin-top:28px;padding-top:16px}
+/* ===== Interactividad: fotos, lista, mapa ===== */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.small{font-size:.9rem;color:var(--muted)}
+.gal figure{margin:0;background:#fff;border:1px solid #f2cdd4;border-radius:var(--r);overflow:hidden;box-shadow:var(--sh)}
+.gal .ph{aspect-ratio:4/3;background:var(--pink);display:grid;place-items:center;color:var(--red);font-weight:600;text-align:center;padding:12px}
+.gal img{width:100%;height:100%;object-fit:cover;display:block}
+.gal .noimg img{display:none}.gal .noimg::before{content:"Foto por agregar (ver img/)"}
+.gal figcaption{padding:14px 18px;font-size:.95rem;color:var(--muted)}
+.chk{list-style:none;padding:0;margin:20px 0}
+.chk label{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;background:#fff;border:1px solid #f2cdd4;border-radius:12px;margin-bottom:10px;cursor:pointer}
+.chk input{width:22px;height:22px;accent-color:var(--red);flex:none;margin-top:3px}
+.prog{height:12px;background:var(--pink);border-radius:99px;overflow:hidden}
+.prog i{display:block;height:100%;width:0;background:var(--red);transition:width .4s}
+.map-box{margin-top:32px;background:#fff;border:1px solid #f2cdd4;border-radius:var(--r);padding:24px;box-shadow:var(--sh)}
+.map-ui{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0}
+.map-ui input{flex:1 1 240px;padding:13px 16px;border:2px solid #e3a3ae;border-radius:999px;font:inherit}
+.map-ui .btn{cursor:pointer;font:inherit;font-weight:700;padding:12px 22px}
+#map{width:100%;height:420px;border:0;border-radius:12px;margin-top:8px}
+.ct{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0}
+/* ===== Animación de entrada ===== */
+.rv{opacity:0;transform:translateY(18px);transition:opacity .6s,transform .6s}
+.rv.in{opacity:1;transform:none}
+/* ===== Responsive ===== */
+@media(max-width:820px){
+ .hero .wrap,.two{grid-template-columns:1fr}
+ .burger{display:block}
+ nav{position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid #f2cdd4;display:none}
+ nav.open{display:block}
+ nav ul{flex-direction:column;padding:10px 4%}
+ section{padding:52px 0}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="https://sanvoluntaria2.z15.web.core.windows.net/#contenido">Saltar al contenido</a>
+
+<!-- ===== ENCABEZADO ===== -->
+<header>
+ <div class="wrap bar">
+  <a class="logo" href="https://sanvoluntaria2.z15.web.core.windows.net/#inicio" aria-label="DonaVida Colombia, ir al inicio">
+   <svg viewBox="0 0 64 64" aria-hidden="true"><path fill="#8b0f1f" d="M32 4C22 18 12 28 12 40a20 20 0 0 0 40 0C52 28 42 18 32 4z"></path><path fill="#fff" d="M32 46s-9-5.5-9-11.5a5 5 0 0 1 9-3 5 5 0 0 1 9 3C41 40.500 32 46 32 46z"></path></svg>
+   DonaVida <span>Colombia</span>
+  </a>
+  <button class="burger" id="burger" aria-expanded="false" aria-controls="menu">Menú</button>
+  <nav id="menu" aria-label="Principal">
+   <ul>
+    <li><a href="https://sanvoluntaria2.z15.web.core.windows.net/#inicio">Inicio</a></li>
+    <li><a href="https://sanvoluntaria2.z15.web.core.windows.net/#importancia">Importancia</a></li>
+    <li><a href="https://sanvoluntaria2.z15.web.core.windows.net/#requisitos">Requisitos</a></li>
+    <li><a href="https://sanvoluntaria2.z15.web.core.windows.net/#proceso">Proceso</a></li>
+    <li><a href="https://sanvoluntaria2.z15.web.core.windows.net/#donde">Mapa</a></li>
+    <li><a href="https://sanvoluntaria2.z15.web.core.windows.net/#faq">Preguntas frecuentes</a></li>
+    <li><a href="https://sanvoluntaria2.z15.web.core.windows.net/#contacto">Contacto</a></li>
+   </ul>
+  </nav>
+ </div>
+</header>
+
+<main id="contenido">
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="inicio">
+ <div class="wrap">
+  <div>
+   <h1>Donar sangre puede ayudar a salvar vidas</h1>
+   <p>Infórmate sobre la donación voluntaria de sangre y conoce cómo acudir a un banco de sangre autorizado en Colombia.</p>
+   <div class="cta">
+    <a class="btn btn-p" href="https://sanvoluntaria2.z15.web.core.windows.net/#proceso">Conoce cómo donar</a>
+    <a class="btn btn-s" href="https://sanvoluntaria2.z15.web.core.windows.net/#donde">Consulta fuentes oficiales</a>
+   </div>
+   <p class="note" style="font-size:.9rem">Iniciativa informativa independiente. No somos un banco de sangre ni una institución médica.</p>
+  </div>
+  <!-- Ilustración original (SVG): gota y corazón, sin imágenes de procedimientos -->
+  <svg class="art" viewBox="0 0 300 320" role="img" aria-label="Ilustración de una gota de sangre con un corazón blanco en el centro, rodeada de círculos rosados">
+   <circle cx="150" cy="170" r="130" fill="#fde8ec"></circle>
+   <circle cx="60" cy="70" r="14" fill="#f7c4cd"></circle><circle cx="250" cy="110" r="9" fill="#f7c4cd"></circle><circle cx="240" cy="260" r="16" fill="#f7c4cd"></circle>
+   <path fill="#8b0f1f" d="M150 40C115 95 75 135 75 190a75 75 0 0 0 150 0c0-55-40-95-75-150z"></path>
+   <path fill="#b3263a" d="M150 40c-8 12-17 24-26 36 20 20 36 50 36 90a62 62 0 0 1-40 58 75 75 0 0 0 105-34c0-55-40-95-75-150z" opacity=".5"></path>
+   <path fill="#fff" d="M150 232s-34-21-34-44a19 19 0 0 1 34-11 19 19 0 0 1 34 11c0 23-34 44-34 44z"></path>
+  </svg>
+ </div>
+</section>
+
+<!-- ===== IMPORTANCIA ===== -->
+<section id="importancia" class="alt">
+ <div class="wrap rv">
+  <h2>¿Por qué es importante donar?</h2>
+  <p class="lead">La sangre es necesaria en muchas situaciones de atención médica: cirugías, partos con complicaciones, accidentes, tratamientos de enfermedades crónicas y otros casos. Aún no es posible fabricarla, por lo que los bancos de sangre dependen de personas que deciden donar.</p>
+  <div class="grid">
+   <article class="card"><div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8-5-8-11a4.500 4.500 0 0 1 8-2.800A4.500 4.500 0 0 1 20 10c0 6-8 11-8 11z"></path></svg></div><h3>Un gesto solidario</h3><p>Una donación voluntaria puede aportar a la atención de pacientes que necesitan sangre o sus componentes.</p></article>
+   <article class="card"><div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg></div><h3>Necesidad constante</h3><p>Las unidades de sangre tienen una vida útil limitada, así que la disponibilidad requiere donantes de forma continua.</p></article>
+   <article class="card"><div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.500 8-8 9-4.500-1-8-4-8-9V6z"></path><path d="M9 12l2 2 4-4"></path></svg></div><h3>Donación voluntaria</h3><p>Donar de forma voluntaria y habitual es una de las prácticas que promueven las autoridades sanitarias para la seguridad de la sangre.</p></article>
+  </div>
+  <p class="note">Para cifras y datos actualizados sobre donación en Colombia, consulta las fuentes oficiales de la sección «¿Dónde puedo donar?». Esta página no presenta estadísticas propias.</p>
+ </div>
+</section>
+
+<!-- ===== REQUISITOS ===== -->
+<section id="requisitos">
+ <div class="wrap rv">
+  <h2>Requisitos generales</h2>
+  <p class="lead">Estas son condiciones que se mencionan con frecuencia. Son información educativa, no un diagnóstico ni una autorización médica.</p>
+  <div class="grid">
+   <article class="card"><h3>Edad</h3><p>Normalmente se exige ser mayor de edad y no superar un límite de edad definido por cada centro.</p></article>
+   <article class="card"><h3>Peso</h3><p>Suele pedirse un peso mínimo para donar con seguridad. El valor exacto lo informa el banco de sangre.</p></article>
+   <article class="card"><h3>Salud general</h3><p>Se espera sentirse bien el día de la donación. Algunas condiciones, medicamentos o antecedentes pueden aplazar o impedir donar.</p></article>
+   <article class="card"><h3>Documento y preparación</h3><p>Es habitual llevar documento de identidad y haber descansado y comido de forma adecuada. Confirma las indicaciones con el centro.</p></article>
+  </div>
+  <p class="note"><strong>Importante:</strong> los criterios de elegibilidad pueden variar. Solo el personal del banco de sangre autorizado determina si una persona puede donar.</p>
+ </div>
+</section>
+
+<!-- ===== PROCESO ===== -->
+<section id="proceso" class="alt">
+ <div class="wrap rv">
+  <h2>¿Cómo es el proceso?</h2>
+  <p class="lead">Estas son las etapas habituales. El proceso concreto depende de cada centro autorizado.</p>
+  <ol class="steps">
+   <li><h3>Información inicial</h3><p>Recibes orientación sobre la donación y puedes resolver tus dudas.</p></li>
+   <li><h3>Evaluación de elegibilidad</h3><p>Personal del centro revisa si puedes donar ese día, mediante preguntas y verificaciones básicas.</p></li>
+   <li><h3>Donación</h3><p>Es realizada por personal capacitado, con material dispuesto por el centro.</p></li>
+   <li><h3>Recomendaciones posteriores</h3><p>El centro te indica cómo cuidarte después, por ejemplo descansar e hidratarte.</p></li>
+  </ol>
+ </div>
+</section>
+
+<!-- ===== FOTOS: coloca imágenes con licencia en la carpeta img/ (donante-1.jpg, donante-2.jpg, donante-3.jpg) ===== -->
+<section id="comunidad" class="gal">
+ <div class="wrap rv">
+  <h2>Solidaridad que se nota</h2>
+  <p class="lead">Personas sonriendo en jornadas de donación voluntaria de sangre. Imágenes ilustrativas, sin procedimientos gráficos.</p>
+  <div class="grid">
+   <figure><div class="ph"><img src="./DonaVida Colombia _ Información sobre la donación voluntaria de sangre_files/donante-1.jpg" alt="Persona sonriendo en un punto de donación de sangre, con una cinta adhesiva en el brazo" loading="lazy" width="800" height="600" onerror="this.parentNode.classList.add('noimg')"></div><figcaption>Una sonrisa después de decidir ayudar.</figcaption></figure>
+   <figure><div class="ph"><img src="./DonaVida Colombia _ Información sobre la donación voluntaria de sangre_files/donante-2.jpg" alt="Grupo de voluntarios sonriendo en una jornada de donación de sangre" loading="lazy" width="800" height="600" onerror="this.parentNode.classList.add('noimg')"></div><figcaption>Donar en comunidad.</figcaption></figure>
+   <figure><div class="ph"><img src="./DonaVida Colombia _ Información sobre la donación voluntaria de sangre_files/donante-3.jpg" alt="Donante sonriendo mientras descansa y se hidrata en una jornada de donación" loading="lazy" width="800" height="600" onerror="this.parentNode.classList.add('noimg')"></div><figcaption>Descansar y cuidarse también es parte del proceso.</figcaption></figure>
+  </div>
+ </div>
+</section>
+
+<!-- ===== LISTA DE PREPARACIÓN (interactiva) ===== -->
+<section id="prepararse" class="alt">
+ <div class="wrap rv">
+  <h2>Lista de preparación</h2>
+  <p class="lead">Marca lo que ya tienes listo antes de acudir a un banco de sangre autorizado. Es solo una guía de organización.</p>
+  <div class="prog" aria-hidden="true"><i id="bar"></i></div>
+  <p class="small" id="count" role="status" aria-live="polite">0 de 6 pasos listos</p>
+  <ul class="chk">
+   <li><label><input type="checkbox"> Tengo mi documento de identidad.</label></li>
+   <li><label><input type="checkbox"> Descansé bien la noche anterior.</label></li>
+   <li><label><input type="checkbox"> Comí de forma adecuada y me hidraté.</label></li>
+   <li><label><input type="checkbox"> Confirmé horario y requisitos con el banco de sangre.</label></li>
+   <li><label><input type="checkbox"> Informaré al personal sobre mi salud y medicamentos.</label></li>
+   <li><label><input type="checkbox"> Reservé tiempo sin prisa para el proceso.</label></li>
+  </ul>
+  <p class="note">Completar esta lista no significa que puedas donar: eso lo decide el personal del banco de sangre autorizado. No es una evaluación médica.</p>
+ </div>
+</section>
+
+<!-- ===== MITOS Y REALIDADES ===== -->
+<section id="mitos">
+ <div class="wrap rv">
+  <h2>Mitos y realidades</h2>
+  <p class="lead">Respuestas generales y prudentes. Ante dudas personales, consulta al banco de sangre.</p>
+  <div class="two">
+   <div>
+    <details><summary>«Donar sangre siempre es doloroso»</summary><div>La experiencia varía. Muchas personas refieren una molestia breve por la punción. Si tienes temor, coméntalo al personal del centro.</div></details>
+    <details><summary>«Donar sangre me va a enfermar»</summary><div>El centro evalúa previamente si puedes donar para cuidar tu seguridad. Algunas personas sienten cansancio o mareo; por eso se dan recomendaciones posteriores.</div></details>
+    <details><summary>«Mi sangre no sirve si no tengo un tipo específico»</summary><div>Los bancos de sangre trabajan con distintos grupos sanguíneos. Pregunta al centro qué necesidades tiene.</div></details>
+   </div>
+   <div>
+    <details><summary>«Si me veo sano, puedo donar»</summary><div>Verse bien no basta: la elegibilidad se define con la evaluación del personal autorizado y puede depender de factores que no se notan.</div></details>
+    <details><summary>«Con una sola donación no cambia nada»</summary><div>Cada donación voluntaria puede ser útil. Cuántas unidades se necesitan depende de cada centro y cada momento.</div></details>
+    <details><summary>«Puedo donar cuando quiera»</summary><div>Existen intervalos mínimos entre donaciones que define el centro autorizado.</div></details>
+   </div>
+  </div>
+ </div>
+</section>
+
+<!-- ===== DÓNDE DONAR ===== -->
+<section id="donde" class="alt">
+ <div class="wrap rv">
+  <h2>¿Dónde puedo donar?</h2>
+  <p class="lead">No gestionamos donaciones ni citas, y no publicamos direcciones ni teléfonos de centros. Para encontrar un banco de sangre autorizado, consulta directamente estas fuentes oficiales:</p>
+  <ul class="links">
+   <li><a href="https://www.ins.gov.co/" target="_blank" rel="noopener noreferrer">Instituto Nacional de Salud (INS)<small>Entidad que coordina la Red Nacional de Bancos de Sangre. Busca allí información sobre donación.</small></a></li>
+   <li><a href="https://www.minsalud.gov.co/" target="_blank" rel="noopener noreferrer">Ministerio de Salud y Protección Social<small>Normatividad y orientación sanitaria en Colombia.</small></a></li>
+   <li><a href="https://www.who.int/es" target="_blank" rel="noopener noreferrer">Organización Mundial de la Salud (OMS)<small>Información internacional sobre seguridad de la sangre.</small></a></li>
+  </ul>
+  <p class="note">También puedes consultar la secretaría de salud de tu departamento o ciudad, o el hospital o banco de sangre de tu zona, y confirmar con ellos su horario y requisitos.</p>
+  <div class="map-box">
+   <h3>Busca bancos de sangre cerca de ti</h3>
+   <div class="map-ui">
+    <label for="place" class="sr">Ciudad o barrio</label>
+    <input id="place" type="text" placeholder="Ej.: Barranquilla, Atlántico" autocomplete="off">
+    <button class="btn btn-p" id="go" type="button">Buscar en el mapa</button>
+    <button class="btn btn-s" id="geo" type="button">Usar mi ubicación</button>
+   </div>
+   <p class="small" id="mapmsg" role="status" aria-live="polite"></p>
+   <iframe id="map" title="Mapa de Google con resultados de bancos de sangre" src="./DonaVida Colombia _ Información sobre la donación voluntaria de sangre_files/maps.html" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen=""></iframe>
+   <p class="small"><a id="open" href="https://www.google.com/maps/search/?api=1&amp;query=banco%20de%20sangre%20Colombia" target="_blank" rel="noopener noreferrer">Abrir en Google Maps</a></p>
+   <p class="note">Los resultados los genera Google Maps y no son un listado oficial. Antes de ir, confirma que el centro sea un banco de sangre autorizado y verifica su horario y requisitos directamente con él.</p>
+  </div>
+ </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq">
+ <div class="wrap rv">
+  <h2>Preguntas frecuentes</h2>
+  <details><summary>¿Quién puede donar sangre?</summary><div>Por lo general, personas mayores de edad, con peso mínimo y en buen estado de salud. Los criterios varían; el banco de sangre autorizado decide en cada caso.</div></details>
+  <details><summary>¿Cuánto dura el proceso?</summary><div>Depende del centro, de la afluencia y de la evaluación previa. Pregunta el tiempo estimado al banco de sangre al que acudas.</div></details>
+  <details><summary>¿Qué ocurre después de donar?</summary><div>El personal suele dar recomendaciones como descansar un rato y mantenerse hidratado. Sigue las indicaciones del centro y consulta si presentas molestias.</div></details>
+  <details><summary>¿Cómo encuentro un centro autorizado?</summary><div>Consulta las fuentes oficiales de la sección «¿Dónde puedo donar?» o la autoridad de salud de tu región, y confirma los detalles directamente con el banco de sangre.</div></details>
+ </div>
+</section>
+
+<!-- ===== CONTACTO Y TRANSPARENCIA ===== -->
+<section id="contacto" class="alt">
+ <div class="wrap rv">
+  <h2>Contacto y transparencia</h2>
+  <p class="note" style="margin-top:0"><strong>DonaVida Colombia es una iniciativa informativa independiente. No somos un banco de sangre ni una institución médica. No recolectamos ni procesamos sangre, no realizamos procedimientos clínicos y no representamos oficialmente a hospitales o entidades gubernamentales.</strong></p>
+  <dl>
+   <dt>Responsable de la iniciativa</dt><dd>Nathalia Hernández Chacón, CEO</dd>
+   <dt>Correo electrónico</dt><dd><a href="mailto:donavidacolombia2@gmail.com">donavidacolombia2@gmail.com</a></dd>
+   <dt>Celular</dt><dd><a href="tel:+573017771344">301 777 1344</a></dd>
+  </dl>
+  <div class="ct">
+   <a class="btn btn-p" href="mailto:donavidacolombia2@gmail.com">Escribir por correo</a>
+   <a class="btn btn-s" href="https://wa.me/573017771344" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+   <button class="btn btn-s" id="share" type="button" style="cursor:pointer;font:inherit;font-weight:700">Compartir esta página</button>
+  </div>
+  <p class="small" id="sharemsg" role="status" aria-live="polite"></p>
+  <p class="small">Contáctanos solo para dudas sobre esta iniciativa informativa. No agendamos donaciones ni citas, y te pedimos no enviar datos médicos por estos medios.</p>
+ </div>
+</section>
+
+</main>
+
+<!-- ===== PIE DE PÁGINA ===== -->
+<footer>
+ <div class="wrap">
+  <div class="cols">
+   <div><h2>Independencia institucional</h2><p>DonaVida Colombia no está afiliada a hospitales, bancos de sangre ni entidades gubernamentales. El contenido es solo educativo y no reemplaza la valoración del personal de salud.</p></div>
+   <div id="privacidad"><h2>Privacidad y tratamiento de datos</h2><p>Este sitio no tiene formularios ni analítica propia y no almacena tus datos. El mapa es un servicio de Google: al cargarlo o usarlo, Google puede tratar datos como tu IP y tus búsquedas. Si pulsas «Usar mi ubicación», tu navegador pide permiso y la ubicación solo se usa para armar la búsqueda en el mapa; nosotros no la recibimos ni la guardamos. Si se añaden más funciones, se actualizará esta política conforme a la normativa colombiana de protección de datos (Ley 1581 de 2012). <span class="todo">[REVISAR con asesor legal]</span></p></div>
+   <div><h2>Fuentes oficiales</h2><ul>
+    <li><a href="https://www.ins.gov.co/" target="_blank" rel="noopener noreferrer">Instituto Nacional de Salud</a></li>
+    <li><a href="https://www.minsalud.gov.co/" target="_blank" rel="noopener noreferrer">Ministerio de Salud</a></li>
+    <li><a href="https://www.who.int/es" target="_blank" rel="noopener noreferrer">OMS</a></li></ul></div>
+  </div>
+  <p class="copy">© <span id="year">2026</span> DonaVida Colombia. Iniciativa informativa independiente.</p>
+ </div>
+</footer>
+
+<script>
+/* Año automático */
+document.getElementById('year').textContent = new Date().getFullYear();
+
+/* Menú móvil accesible */
+const burger = document.getElementById('burger'), menu = document.getElementById('menu');
+burger.addEventListener('click', () => {
+  const open = menu.classList.toggle('open');
+  burger.setAttribute('aria-expanded', open);
+});
+menu.addEventListener('click', e => { if (e.target.tagName === 'A') { menu.classList.remove('open'); burger.setAttribute('aria-expanded', 'false'); } });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') { menu.classList.remove('open'); burger.setAttribute('aria-expanded', 'false'); } });
+
+/* Animación discreta de entrada al hacer scroll */
+const items = document.querySelectorAll('.rv');
+if ('IntersectionObserver' in window) {
+  const io = new IntersectionObserver(es => es.forEach(x => { if (x.isIntersecting) { x.target.classList.add('in'); io.unobserve(x.target); } }), { threshold: .12 });
+  items.forEach(el => io.observe(el));
+} else { items.forEach(el => el.classList.add('in')); }
+
+/* Mapa: búsqueda por ciudad o ubicación del navegador */
+const map = document.getElementById('map'), place = document.getElementById('place'), msg = document.getElementById('mapmsg'), openA = document.getElementById('open');
+function showMap(q) {
+  map.src = 'https://www.google.com/maps?q=' + encodeURIComponent(q) + '&output=embed';
+  openA.href = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(q);
+}
+function searchPlace() {
+  const v = place.value.trim();
+  if (!v) { msg.textContent = 'Escribe tu ciudad o barrio para buscar.'; place.focus(); return; }
+  msg.textContent = 'Mostrando bancos de sangre cerca de: ' + v;
+  showMap('banco de sangre ' + v);
+}
+document.getElementById('go').addEventListener('click', searchPlace);
+place.addEventListener('keydown', e => { if (e.key === 'Enter') searchPlace(); });
+document.getElementById('geo').addEventListener('click', () => {
+  if (!navigator.geolocation) { msg.textContent = 'Tu navegador no permite geolocalización. Escribe tu ciudad.'; return; }
+  msg.textContent = 'Solicitando permiso de ubicación…';
+  navigator.geolocation.getCurrentPosition(
+    p => { msg.textContent = 'Mostrando bancos de sangre cerca de tu ubicación.'; showMap('banco de sangre near ' + p.coords.latitude + ',' + p.coords.longitude); },
+    () => { msg.textContent = 'No pudimos acceder a tu ubicación. Escribe tu ciudad o barrio.'; },
+    { timeout: 10000 }
+  );
+});
+
+/* Lista de preparación con progreso */
+const checks = document.querySelectorAll('.chk input'), bar = document.getElementById('bar'), count = document.getElementById('count');
+checks.forEach(c => c.addEventListener('change', () => {
+  const n = [...checks].filter(x => x.checked).length;
+  bar.style.width = (n / checks.length * 100) + '%';
+  count.textContent = n + ' de ' + checks.length + ' pasos listos' + (n === checks.length ? '. ¡Todo listo para consultar con tu banco de sangre!' : '');
+}));
+
+/* Compartir página */
+document.getElementById('share').addEventListener('click', async () => {
+  const m = document.getElementById('sharemsg'), data = { title: document.title, url: location.href };
+  try {
+    if (navigator.share) { await navigator.share(data); }
+    else { await navigator.clipboard.writeText(location.href); m.textContent = 'Enlace copiado.'; }
+  } catch (e) { m.textContent = 'No se pudo compartir. Copia el enlace desde la barra del navegador.'; }
+});
+</script>
+
+
+</body></html>
